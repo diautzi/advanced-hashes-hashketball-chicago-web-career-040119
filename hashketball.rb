@@ -203,7 +203,9 @@ end
 def num_points_scored(player)
   game_hash.each do |k, v| 
     v[:players].each do |k, v|
-      puts v.points
+      if k == player
+        puts v[:points]
+      end
     end
   end
 end
