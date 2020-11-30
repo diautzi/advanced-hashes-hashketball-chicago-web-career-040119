@@ -204,6 +204,7 @@ def num_points_scored(player)
   game_hash.each do |k, v| 
     v[:players].each do |k, v|
       if k == player
+        binding.pry
         puts v[:points]
       end
     end
