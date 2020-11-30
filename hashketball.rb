@@ -202,6 +202,7 @@ require './hashketball.rb'
 
 
 def game_hash
+  puts hash
   hash
 end
 
