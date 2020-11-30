@@ -205,7 +205,7 @@ def num_points_scored(player)
     v[:players].each do |k, v|
       if k == player
         binding.pry
-        puts player[:points]
+        puts v[:points]
       end
     end
   end
