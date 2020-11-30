@@ -200,7 +200,7 @@ end
 #   end 
 # end
 
-def num_points_scored(game_hash)
+def num_points_scored(player)
   game_hash.each do |k, v| 
     v[:players].each do |k, v|
       puts v.points
