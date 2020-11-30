@@ -1,6 +1,6 @@
 # Write your code here!
 require "pry"
-
+ require './hashketball.rb'
 #   def game_hash
 #   hash = {
 #     :home => {
