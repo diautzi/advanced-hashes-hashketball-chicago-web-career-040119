@@ -201,3 +201,7 @@ require './hashketball.rb'
 # end
 
 
+def game_hash
+  hash
+end
+
