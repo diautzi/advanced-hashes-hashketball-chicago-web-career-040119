@@ -201,5 +201,3 @@ end
 # end
 
 
-game_hash
-
